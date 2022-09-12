@@ -5,6 +5,12 @@
   padding: 24px;
 }
 
+.verseObj {
+  border: 1px solid #aaa;
+  padding: 12px;
+  margin-bottom: 12px;
+}
+
 .verses {
 
 }
