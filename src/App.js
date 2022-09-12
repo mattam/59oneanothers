@@ -3,11 +3,24 @@ import "./App.css";
 
 import verses from './data/verses.json';
 
+const renderVerse = (verse) => {
+  const splitVerse = verse.split("one another");
+  const fragments = [];
+  splitVerse.forEach((verseFragment, i) => {
+    if (i !==0) {
+      fragments.push(<span className="oneAnother">one another</span>)
+    }
+    fragments.push(verseFragment);  
+  }) 
+  return <>{fragments}</>;
+}
+
 const renderVerses = () => {
   return verses.map( 
       (verseObj, index) => 
         <div className="verseObj" key={index}>
-          <span className="verses">&ldquo;{verseObj.verses}&rdquo;</span>
+          <span className="number">{index}</span>
+          <span className="verses">{renderVerse(verseObj.verses)}</span>
           <span className="reference">{verseObj.reference}</span>
         </div>
     );

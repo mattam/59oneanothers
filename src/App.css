@@ -9,11 +9,23 @@
   border: 1px solid #aaa;
   padding: 12px;
   margin-bottom: 12px;
+  cursor: pointer;
+}
+
+.verseObj:hover .oneAnother {
+    background-color: rgb(236, 236, 236);
+}
+
+.number {
+  font-weight: bold;
+  padding-right: 12px;
+  color: #888;
 }
 
 .verses {
 
 }
+
 
 .reference {
   padding-left: 12px;
