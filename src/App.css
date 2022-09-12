@@ -5,6 +5,17 @@
   padding: 24px;
 }
 
+.verses {
+
+}
+
+.reference {
+  padding-left: 12px;
+  font-size: 80%;
+  color: #222;
+}
+
+
 footer {
   display: flex;
   flex-direction: column;
