@@ -1,5 +1,13 @@
 .App {
   background: #ccc;
   display: flex;
+  flex-direction: column;
   padding: 24px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  color: #555;
+  font-size: 80%;
 }
