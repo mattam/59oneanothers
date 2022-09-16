@@ -21,7 +21,7 @@ const renderVerses = () => {
   return verses.map( 
       (verseObj, index) => 
         <div className="verseObj" key={index}>
-          <span className="number">{index}</span>
+          <span className="number">{index+1}</span>
           <span className="verses">{renderVerse(verseObj.verses)}</span>
           <span className="reference">{verseObj.reference}</span>
         </div>
