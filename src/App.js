@@ -3,14 +3,16 @@ import "./App.css";
 
 import verses from './data/verses.json';
 
-const renderVerse = (verse) => {
-  const splitVerse = verse.split("one another");
+const renderVerse = (verses) => {
+
   const fragments = [];
-  splitVerse.forEach((verseFragment, i) => {
-    if (i !==0) {
-      fragments.push(<span className="oneAnother">one another</span>)
+  verses.forEach((verseFragment, i) => {
+    if (i === 1) {
+      fragments.push(<span className="oneAnother">{verseFragment}</span>)
+    } else {
+      fragments.push(verseFragment);  
     }
-    fragments.push(verseFragment);  
+
   }) 
   return <>{fragments}</>;
 }

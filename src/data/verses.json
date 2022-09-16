@@ -1,14 +1,71 @@
 [
     {
-        "verses": "Salt is good, but if the salt has lost its saltiness, how will you make it salty again? Have salt in yourselves, and be at peace with one another.",
+        "verses": [
+            "Salt is good, but if the salt has lost its saltiness, how will you make it salty again? Have salt in yourselves, and be at peace with ",
+            "one another."
+        ],
         "reference": "Mark 9:50"
     },
     {
-        "verses": "If I then, your Lord and Teacher, have washed your feet, you also ought to wash one another’s feet.",
+        "verses": ["If I then, your Lord and Teacher, have washed your feet, you also ought to wash ",
+            "one another’s",
+            " feet."
+        ],
         "reference": "John 13:14"
     },
     {
-        "verses": "A new commandment I give to you, that you love one another: just as I have loved you, you also are to love one another.",
+        "verses": [
+            "A new commandment I give to you, that you love ",
+            "one another",
+            ": just as I have loved you, you also are to love one another."
+        ],
         "reference": "John 13:34"
+    },
+    {
+        "verses": [
+            "A new commandment I give to you, that you love one another: just as I have loved you, you also are to love ",
+            "one another."
+        ],
+        "reference": "John 13:34"
+    }  ,
+    {
+        "verses": [
+            "By this all people will know that you are my disciples, if you have love for ",
+            "one another."
+        ],
+        "reference": "John 13:35"
+    },
+    {
+        "verses": [
+            "This is my commandment, that you love ",
+            "one another ", 
+            "as I have loved you."
+        ],
+        "reference": "John 15:12"
+    },
+    {
+        "verses": [
+            "Love ",
+            "one another ", 
+            "with brotherly affection."
+        ],
+        "reference": "Romans 12:10"
+    },
+    {
+        "verses": [
+            "Outdo ",
+            "one another ", 
+            "in showing honor."
+        ],
+        "reference": "Romans 12:10"
+    },
+    {
+        "verses": [
+            "Live in harmony with ",
+            "one another. ", 
+            "Do not be haughty, but associate with the lowly. Never be wise in your own sight."
+        ],
+        "reference": "Romans 12:16"
     }
+    
 ]
