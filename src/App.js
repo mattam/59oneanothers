@@ -7,7 +7,7 @@ const renderVerse = (verses) => {
 
   const fragments = [];
   verses.forEach((verseFragment, i) => {
-    if (i === 1) {
+    if (i % 2) {
       fragments.push(<span className="oneAnother">{verseFragment}</span>)
     } else {
       fragments.push(verseFragment);  
