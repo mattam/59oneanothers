@@ -51,7 +51,11 @@
 }
 
 .verses {
-  padding: 24px;
+  padding: 48px;
+}
+
+.verses a {
+  color: #555;
 }
 
 
