@@ -35,7 +35,7 @@ function App() {
       <div className="verseObj">
         <h2>59 One Anothers</h2>
         <span className="verses">
-        <h4>59 Bible Verses about how to treat <span className="oneAnother">one another</span></h4>
+        <h4>59 Bible Verses about how to ❤️ <span className="oneAnother">one another</span></h4>
         </span>
       </div>
         {renderVerses()}
